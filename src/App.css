@@ -1,8 +1,9 @@
 body {
   background: transparent !important;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Switzer', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 .dice-app-container {
@@ -62,15 +63,20 @@ body {
   font-weight: bold;
   font-size: 2.2em;
   letter-spacing: 0.03em;
+  color: #fff;
+  font-family: 'Switzer', Arial, sans-serif;
+  text-shadow: 0 2px 12px #0009; /* For extra contrast if over a dark dice image */
 }
 
 .die-label {
   font-size: 1.12em;
-  color: #222;
+  color: #fff;
   text-align: center;
   min-height: 2.5em;
   max-width: 200px;
   line-height: 1.25;
+  font-family: 'Switzer', Arial, sans-serif;
+  text-shadow: 0 2px 8px #0008; /* Optional: helps if over a busy image */
 }
 
 @media (max-width: 1150px) {
