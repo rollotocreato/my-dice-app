@@ -16,10 +16,10 @@ function getRandomLetter() {
 }
 
 const diceConfigs = [
-  { label: "Number of objects", roll: getRandomNumber, format: (v) => v },
-  { label: "The core object", roll: getRandomLetter, format: (v) => v },
-  { label: "Setting of your scene", roll: getRandomLetter, format: (v) => v },
-  { label: "The primary color", roll: getRandomLetter, format: (v) => v }
+  { label: "NUMBER OF OBJECTS", roll: getRandomNumber, format: (v) => v },
+  { label: "THE TYPE OF OBJECT", roll: getRandomLetter, format: (v) => v },
+  { label: "SETTING FOR THE OBJECT(S)", roll: getRandomLetter, format: (v) => v },
+  { label: "PRIMARY COLOR FOR YOUR MASTERPIECE", roll: getRandomLetter, format: (v) => v }
 ];
 
 function App() {
