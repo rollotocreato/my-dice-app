@@ -65,6 +65,5 @@ function DiceUI() {
     </div>
   );
 }
+export default App;
 
-// Render to root (for CodePen)
-ReactDOM.render(<DiceUI />, document.getElementById('root'));
