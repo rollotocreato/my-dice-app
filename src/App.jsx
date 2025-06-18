@@ -22,7 +22,7 @@ const diceConfigs = [
   { label: "The primary color", roll: getRandomLetter, format: (v) => v }
 ];
 
-function DiceUI() {
+function App() {
   const [dice, setDice] = React.useState([
     diceConfigs[0].roll(),
     diceConfigs[1].roll(),
@@ -65,5 +65,5 @@ function DiceUI() {
     </div>
   );
 }
-export default App;
 
+export default App;

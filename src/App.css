@@ -1,5 +1,5 @@
-#root body {
-  background: transparent;
+body {
+  background: transparent !important;
   font-family: 'Inter', Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: transparent;
+  background: transparent !important;
 }
 
 .dice-row {
